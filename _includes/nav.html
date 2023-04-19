@@ -1,9 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/nav.css">
-    <!-- TODO make include -->
-    <link rel="stylesheet" href="assets/fontawesome/css/solid.css">
-    <link rel="stylesheet" href="assets/fontawesome/css/brands.css">
+    {% include fontawesome.html %}
 </head>
 
 <body>
@@ -25,33 +23,40 @@
                 <div class="nav-btn-item"></div>
                 <div class="nav-btn-item"></div>
                 <div class="nav-btn-item"></div>
-                <div class="nav-btn-item"></div>
             </div>
             <div class="menu">
-                <div class="nav-menu-item">
-                    <div class="light"></div>
-                    <div class="licon"><i class="fa-solid fa-book-open-cover"></i></div>
-                    <div class="con">博文</div>
-                    <div class="ricon"></div>
-                </div>
-                <div class="nav-menu-item">
-                    <div class="light"></div>
-                    <div class="licon"><i class="fa-solid fa-tag"></i></div>
-                    <div class="con">标签</div>
-                    <div class="ricon"></div>
-                </div>
-                <div class="nav-menu-item">
-                    <div class="light"></div>
-                    <div class="licon"><i class="fa-solid fa-image"></i></div>
-                    <div class="con">画廊</div>
-                    <div class="ricon"></div>
-                </div>
-                <div class="nav-menu-item">
-                    <div class="light"></div>
-                    <div class="licon"><i class="fa-solid fa-circle-info"></i></div>
-                    <div class="con">关于</div>
-                    <div class="ricon"></div>
-                </div>
+                <a href="/">
+                    <div class="nav-menu-item">
+                        <div class="light"></div>
+                        <div class="licon"><i class="fa-solid fa-book-open"></i></div>
+                        <div class="con">博文</div>
+                        <div class="ricon"></div>
+                    </div>
+                </a>
+                <a href="tags">
+                    <div class="nav-menu-item">
+                        <div class="light"></div>
+                        <div class="licon"><i class="fa-solid fa-tag"></i></div>
+                        <div class="con">标签</div>
+                        <div class="ricon"></div>
+                    </div>
+                </a>
+                <a href="gallery">
+                    <div class="nav-menu-item">
+                        <div class="light"></div>
+                        <div class="licon"><i class="fa-solid fa-image"></i></div>
+                        <div class="con">画廊</div>
+                        <div class="ricon"></div>
+                    </div>
+                </a>
+                <a href="about">
+                    <div class="nav-menu-item">
+                        <div class="light"></div>
+                        <div class="licon"><i class="fa-solid fa-circle-info"></i></div>
+                        <div class="con">关于</div>
+                        <div class="ricon"></div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
