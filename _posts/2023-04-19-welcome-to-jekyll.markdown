@@ -1,8 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2023-04-19 19:06:59 +0800
-categories: jekyll update
+title: 树莓派4b和Jekyll搭建个人博客
+date: 2022-03-06
+category: guide
+tags: 
+- raspberrypi
+- jekyll
+- website
+- software
+excerpt: GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧。
+image: images/headimg/jekyll.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
