@@ -22,10 +22,12 @@ title: MHYC Daily
 email: MHYC133@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   MHYC的日常博客
-baseurl: "/blog-theme" # the subpath of your site, e.g. /blog
+baseurl: "/blog-theme" # if you have base url, fill in. if you dont have one, use empty ""
 url: "https://mhyc.eu.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username:  MHYCWasTaken
+github_username: MHYCWasTaken
+site_start_year: 2023 # 网站开启的年份，用于页面最下面的 2023 - 2023 MHYC133
+author: MHYC133
 
 # Build settings
 theme: 
