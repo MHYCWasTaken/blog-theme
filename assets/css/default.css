@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.8);
+}
+.content{
+    width: calc(min(700px, 95%));
+    background: rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
