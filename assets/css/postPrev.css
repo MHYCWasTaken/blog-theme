@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.post-wrap {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.post {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 100%;
+    height: auto;
+    line-height: 80px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    text-align: left;
+    float: left;
+    transition: all .2s;
+    opacity: .9;
+    display: flex;
+}
+
+.post-a {
+    width: 100%;
+}
+
+.post:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+    -webkit-animation: index-link-active 1s cubic-bezier(.315, .605, .375, .925) forwards;
+    -o-animation: index-link-active 1s cubic-bezier(.315, .605, .375, .925) forwards;
+    -ms-animation: index-link-active 1s cubic-bezier(.315, .605, .375, .925) forwards;
+    -moz-animation: index-link-active 1s cubic-bezier(.315, .605, .375, .925) forwards;
+}
+
+
+@keyframes index-link-active {
+    0% {
+        transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(0)
+    }
+
+    16% {
+        transform: perspective(1600px) rotateX(5deg) rotateY(2.5deg) translateZ(16px)
+    }
+
+    to {
+        transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(32.5px)
+    }
+}
+
+.post-title {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    float: left;
+    margin: 10px;
+    font-weight: 1000;
+    text-align: left;
+    height: auto;
+    height: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.post-title p{
+    line-height: 55px;
+}
+
+.post-abs{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.3);
+    height: 55px;
+    margin: 10px;
+    line-height: 55px;
+}
+
+.post-abs{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.2);
+    height: 55px;
+    margin: 10px;
+    line-height: 55px;
+}

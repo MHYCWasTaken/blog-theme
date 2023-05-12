@@ -1,0 +1,21 @@
+<div class="post-wrap" id="{{item.title}}">
+    <a class="post-a" href="{{ site.url }}{{ post.url }}">
+        <div class="post">
+            <div class="post-title">
+                <p>{{item.title}}</p>
+            </div>
+            <div class="post-abs">
+                {% if item.pinned == true %}
+                <i>置顶</i>
+                {% else %}
+                <i>{{ item.date | date: '%Y %m %d' }}</i>
+                {% endif %}
+            </div>
+        </div>
+    </a>
+</div>
+<!--
+标题  日期
+expert
+tag/cat
+-->

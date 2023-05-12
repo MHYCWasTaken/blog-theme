@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: postPrev-test
 title: TEST
 ---
 

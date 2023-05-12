@@ -3,6 +3,18 @@
 {% include nav.html %}
 <title>{{page.title}}</title>
 <div class="content">
-    {{content}}
+    {%- assign post = site.posts | sort: 'date' | reverse -%}
+    {%- assign posts = site.posts -%}
+    {%- for item in posts -%}
+        {% if item != nil and item.pinned == true %}
+            {% include postPrev.html %}
+        {% endif %}
+    {%- endfor -%}
+
+    {%- for item in posts -%}
+        {% unless item == nil or item.pinned == true %}
+            {% include postPrev.html %}
+        {% endunless  %}
+    {%- endfor -%}
 </div>
 {% include foot.html %}

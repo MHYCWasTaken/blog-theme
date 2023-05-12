@@ -4,3 +4,7 @@
     box-sizing: border-box;
     color: rgba(0,0,0,0.8);
 }
+.content div{
+    display: flex;
+    position: relative;
+}
